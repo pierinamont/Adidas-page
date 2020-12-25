@@ -117,8 +117,8 @@ main {
     letter-spacing: 0.10em;
     text-decoration: underline;
     text-transform: uppercase;
-    text-align: end;
-    align-items: center;
+    display: flex;
+    position: relative;
     
 }
 
@@ -126,5 +126,23 @@ main {
     background: black;
     background-size: contain;
     color: white;
+    
+}
+
+/*FOOTER*/
+.footer-section {
+    background-color: #333333;
+    color: white;
+    
+}
+
+.div-footer-section {
+    justify-content: space-between;
+}
+
+.div-footer-section p {
+    display: inline-block;
+    margin-right: 5px;
+    margin-left: 5px;
     
 }
