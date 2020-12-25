@@ -2,6 +2,8 @@ body {
     margin: 0px;
     padding: 0px;
 }
+
+/*NAVBAR*/
 .div-nav {
     margin: 0px;
     font-size: 0.6rem;
@@ -30,7 +32,8 @@ body {
     font-size: 0.8rem;
     display: flex;
     justify-content: space-between;
-    height: 90px;
+    align-items: center;
+    height: 70px;
 }
 .navbar .navbar-logo img{
     width: 72px;
@@ -50,4 +53,78 @@ body {
     padding-right: 20px;
     cursor: pointer;
 }
+/*NAVBAR*/
 
+/*PRODUCT SECTION*/
+main {
+    background-image: url("images/background-image.jpg");
+    background-repeat: no-repeat;
+    background-size: contain;
+    
+}
+
+.product-section {
+    top: 20px;
+    position: relative;
+    display: block;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #333333;
+    width: 20%;
+    height: 600px;
+}
+
+.container-product-section {
+    background-color: white;
+    margin-left: 20px;
+    border-radius: 10px;
+    box-shadow: 1px 1px 7px #b1b1b1;
+    height: 120px;
+    cursor: pointer;
+}
+
+.container-product-section:nth-child(1) {
+    background-image: url("images/shoes.png");
+    background-repeat: no-repeat;
+    background-size: 140px;
+    background-position: 10%;
+}
+
+.container-product-section:nth-child(2) {
+    background-image: url("images/shirt.png");
+    background-repeat: no-repeat;
+    background-size: 100px;
+    background-position: 10%;
+}
+
+
+.container-product-section:nth-child(3) {
+    background-image: url("images/hat.png");
+    background-repeat: no-repeat;
+    background-size: 100px;
+    background-position: 10%;
+}
+
+.container-product-section:nth-child(4) {
+    background-image: url("images/accesorios.png");
+    background-repeat: no-repeat;
+    background-size: 100px;
+    background-position: 10%;
+}
+
+.container-product-section p {
+    font-weight: bold;
+    font-size: 0.7rem;
+    letter-spacing: 0.10em;
+    text-decoration: underline;
+    text-transform: uppercase;
+    text-align: end;
+    align-items: center;
+    
+}
+
+.container-product-section p:hover {
+    background: black;
+    background-size: contain;
+    color: white;
+    
+}
