@@ -64,13 +64,13 @@ main {
 }
 
 .product-section {
-    top: 20px;
+    top: 40px;
     position: relative;
     display: block;
     font-family: Arial, Helvetica, sans-serif;
     color: #333333;
     width: 20%;
-    height: 600px;
+    height: 572px;
 }
 
 .container-product-section {
@@ -78,7 +78,7 @@ main {
     margin-left: 20px;
     border-radius: 10px;
     box-shadow: 1px 1px 7px #b1b1b1;
-    height: 120px;
+    height: 110px;
     cursor: pointer;
 }
 
@@ -86,7 +86,7 @@ main {
     background-image: url("images/shoes.png");
     background-repeat: no-repeat;
     background-size: 140px;
-    background-position: 10%;
+    background-position: 3%;
 }
 
 .container-product-section:nth-child(2) {
@@ -119,6 +119,9 @@ main {
     text-transform: uppercase;
     display: flex;
     position: relative;
+    top: 50px;
+    left: 150px;
+    width: fit-content;
     
 }
 
@@ -129,20 +132,41 @@ main {
     
 }
 
+.container-product-section p:nth-child(1) {
+    position: relative;
+    top: 50px;
+}
+
 /*FOOTER*/
 .footer-section {
     background-color: #333333;
     color: white;
-    
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 0.8rem;
+    display:flex;
+    justify-content: center;
 }
 
 .div-footer-section {
-    justify-content: space-between;
+    display: flex;
+    text-align: center;
+    align-items: center;
 }
 
 .div-footer-section p {
     display: inline-block;
     margin-right: 5px;
     margin-left: 5px;
-    
 }
+
+.div-footer-section figure {
+    display: flex;
+    justify-content: center;
+    padding-right: 0px;
+    margin-right: 0px;
+}
+.div-footer-section img { /*CORREGIR*/
+    width: 20px;
+    height: auto;
+}
+
